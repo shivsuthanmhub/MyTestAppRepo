@@ -8,7 +8,7 @@ namespace XamForms.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About test new";
+            Title = "About test new"; // Suthan
 
             OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
         }
